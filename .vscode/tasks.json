@@ -1,0 +1,15 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "0.1.0",
+  "command": "${workspaceRoot}/node_modules/.bin/babel.cmd ",
+  "isShellCommand": true,
+  "showOutput": "never",
+  "suppressTaskName": true,
+  "tasks": [
+    {
+      "taskName": "transpile",
+      "args": ["./src", "--out-dir", "./lib/", "--source-maps", "inline"]
+    }
+  ]
+}
