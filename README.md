@@ -31,6 +31,14 @@ class MyInput extends Formsy.Mixin {
     )
   }
 }
+
+...
+
+// Using your new component
+
+<Formsy.Form>
+  <MyInput name='foo' />
+</Formsy.Form>
 ```
 
 Eventually Mixin will be renamed to something that makes more sense but for now for backwards compatibility I have left it named as such.
