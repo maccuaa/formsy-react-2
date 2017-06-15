@@ -1,4 +1,4 @@
-This is the old CHANGES file. Please look at [releases](https://github.com/christianalfoni/formsy-react/releases) for latest changes.
+This is the old CHANGES file. Please look at [releases](https://github.com/christianalfoni/formsy-react-2/releases) for latest changes.
 
 **0.8.0**
   - Fixed bug where dynamic form elements gave "not mounted" error (Thanks @sdemjanenko)

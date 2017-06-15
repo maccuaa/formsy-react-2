@@ -1,5 +1,5 @@
 import React from 'react';
-import Formsy from 'formsy-react';
+import Formsy from 'formsy-react-2';
 
 function contains(container, item, cmp) {
   for (const it of container) {

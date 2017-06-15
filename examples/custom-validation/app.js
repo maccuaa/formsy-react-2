@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Formsy from 'formsy-react';
+import Formsy from 'formsy-react-2';
 
 import MyInput from './../components/Input';
 

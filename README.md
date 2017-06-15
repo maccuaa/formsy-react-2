@@ -1,9 +1,9 @@
-formsy-react-2
+formsy-react-2-2
 ============
 
 A form input builder and validator for React JS.
 
-Forked from [formsy-react](https://github.com/christianalfoni/formsy-react) to add support for:
+Forked from [formsy-react-2](https://github.com/christianalfoni/formsy-react-2) to add support for:
 
 - React 15.5.0
 - ES6 classes
@@ -39,13 +39,13 @@ Formsy.HOC and Formsy.Decorator probably don't work right now. The focus was to 
 
 The examples and API docs have not been updated yet.
 
-If the original [formsy-react](https://github.com/christianalfoni/formsy-react) maintainers become more active and incorporate these features then I will gladly remove this package.
+If the original [formsy-react-2](https://github.com/christianalfoni/formsy-react-2) maintainers become more active and incorporate these features then I will gladly remove this package.
 
 For examples you can look at my other project [formsy-mui](https://github.com/st-andrew/formsy-mui)
 
 ## Installation
 
-`npm install formsy-react-2`
+`npm install formsy-react-2-2`
 
 The following is the original README.  I have updated the links for this repo, it will be updated eventually.
 
@@ -70,13 +70,13 @@ The main concept is that forms, inputs and validation is done very differently a
   5. You can dynamically add form elements to your form and they will register/unregister to the form
 
 ## Default elements
-You can look at examples in this repo or use the [formsy-react-components](https://github.com/twisty/formsy-react-components) project to use bootstrap with formsy-react, or use [formsy-material-ui](https://github.com/mbrookes/formsy-material-ui) to use [Material-UI](http://material-ui.com/) with formsy-react.
+You can look at examples in this repo or use the [formsy-react-2-components](https://github.com/twisty/formsy-react-2-components) project to use bootstrap with formsy-react-2, or use [formsy-material-ui](https://github.com/mbrookes/formsy-material-ui) to use [Material-UI](http://material-ui.com/) with formsy-react-2.
 
 ## Install
 
   1. Download from this REPO and use globally (Formsy) or with requirejs
-  2. Install with `npm install formsy-react` and use with browserify etc.
-  3. Install with `bower install formsy-react`
+  2. Install with `npm install formsy-react-2` and use with browserify etc.
+  3. Install with `bower install formsy-react-2`
 
 ## Changes
 
@@ -93,7 +93,7 @@ Complete API reference is available [here](/API.md).
 #### Formsy gives you a form straight out of the box
 
 ```jsx
-  import Formsy from 'formsy-react';
+  import Formsy from 'formsy-react-2';
 
   const MyAppForm = createReactClass({
     getInitialState() {
@@ -129,7 +129,7 @@ This code results in a form with a submit button that will run the `submit` meth
 
 #### Building a form element (required)
 ```jsx
-  import Formsy from 'formsy-react';
+  import Formsy from 'formsy-react-2';
 
   const MyOwnInput = createReactClass({
 
@@ -166,8 +166,8 @@ This code results in a form with a submit button that will run the `submit` meth
 The form element component is what gives the form validation functionality to whatever you want to put inside this wrapper. You do not have to use traditional inputs, it can be anything you want and the value of the form element can also be anything you want. As you can see it is very flexible, you just have a small API to help you identify the state of the component and set its value.
 
 ## Related projects
-- [formsy-material-ui](https://github.com/mbrookes/formsy-material-ui) - A formsy-react compatibility wrapper for [Material-UI](http://material-ui.com/) form components.
-- [formsy-react-components](https://github.com/twisty/formsy-react-components) - A set of React JS components for use in a formsy-react form.
+- [formsy-material-ui](https://github.com/mbrookes/formsy-material-ui) - A formsy-react-2 compatibility wrapper for [Material-UI](http://material-ui.com/) form components.
+- [formsy-react-2-components](https://github.com/twisty/formsy-react-2-components) - A set of React JS components for use in a formsy-react-2 form.
 - ...
 - Send PR for adding your project to this list!
 

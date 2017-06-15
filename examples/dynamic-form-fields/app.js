@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Form } from 'formsy-react';
+import { Form } from 'formsy-react-2';
 
 import MyInput from './../components/Input';
 import MySelect from './../components/Select';

@@ -567,7 +567,7 @@ var MyInput = createReactClass({
 ### <a name="formsyhoc">Formsy.HOC</a>
 The same methods as the mixin are exposed to the HOC version of the element component, though through the `props`, not on the instance.
 ```jsx
-import {HOC} from 'formsy-react';
+import {HOC} from 'formsy-react-2';
 
 class MyInputHoc extends React.Component {
   render() {
@@ -603,7 +603,7 @@ var MyForm = createReactClass({
 ### <a name="formsydecorator">Formsy.Decorator</a>
 The same methods as the mixin are exposed to the decorator version of the element component, though through the `props`, not on the instance.
 ```jsx
-import {Decorator as FormsyElement} from 'formsy-react';
+import {Decorator as FormsyElement} from 'formsy-react-2';
 
 @FormsyElement()
 class MyInput extends React.Component {
@@ -659,7 +659,7 @@ Formsy.addValidationRule('isMoreThan', function (values, value, otherField) {
 ```
 Returns true if the value is thruthful
 
-_For more complicated regular expressions (emoji, international characters) you can use [xregexp](https://github.com/slevithan/xregexp). See [this comment](https://github.com/christianalfoni/formsy-react/issues/407#issuecomment-266306783) for an example._
+_For more complicated regular expressions (emoji, international characters) you can use [xregexp](https://github.com/slevithan/xregexp). See [this comment](https://github.com/christianalfoni/formsy-react-2/issues/407#issuecomment-266306783) for an example._
 
 **isEmail**
 ```jsx

@@ -7,7 +7,7 @@ module.exports = {
   externals: 'react',
   output: {
     path: path.resolve(__dirname, 'release'),
-    filename: 'formsy-react.js',
+    filename: 'formsy-react-2.js',
     libraryTarget: 'umd',
     library: 'Formsy'
   },
