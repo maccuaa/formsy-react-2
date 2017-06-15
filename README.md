@@ -1,4 +1,4 @@
-formsy-react-2-2
+formsy-react-2
 ============
 
 A form input builder and validator for React JS.
@@ -45,7 +45,7 @@ For examples you can look at my other project [formsy-mui](https://github.com/st
 
 ## Installation
 
-`npm install formsy-react-2-2`
+`npm install formsy-react-2`
 
 The following is the original README.  I have updated the links for this repo, it will be updated eventually.
 
