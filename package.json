@@ -8,6 +8,7 @@
   },
   "main": "lib/main.js",
   "scripts": {
+    "prepublishOnly": "npm run test && npm run build",
     "build": "babel ./src/ -d ./lib/",
     "test": "babel-node testrunner"
   },
