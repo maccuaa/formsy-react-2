@@ -1,8 +1,8 @@
 var React = global.React || require('react');
 
-import Mixin from './Mixin.js';
+import HOC from './HOC';
 
-export default () => (Component) => Mixin((props) => {
+export default () => (Component) => HOC((props) => {
   return (
     <Component {...props} />
   )
