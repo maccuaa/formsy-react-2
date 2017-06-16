@@ -11,7 +11,10 @@
       "protocol": "inspector",
       "cwd": "${workspaceRoot}",
       "name": "Run Tests",
-      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node.cmd",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node",
+      "windows": {
+        "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/babel-node.cmd"
+      },
       "runtimeArgs": [
         "--nolazy"
       ],
