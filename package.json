@@ -8,9 +8,8 @@
   },
   "main": "lib/main.js",
   "scripts": {
-    "build": "npm run prepublish",
-    "test": "babel-node testrunner",
-    "prepublish": "babel ./src/ -d ./lib/"
+    "build": "babel ./src/ -d ./lib/",
+    "test": "babel-node testrunner"
   },
   "author": "Andrew MacCuaig",
   "license": "MIT",
