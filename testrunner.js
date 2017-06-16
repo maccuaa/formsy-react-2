@@ -1,10 +1,6 @@
+import 'jsdom-global/register'
 import path from 'path';
 import testrunner from 'nodeunit/lib/reporters/default.js';
-import {jsdom} from 'jsdom';
-
-global.document = jsdom();
-global.window = document.defaultView;
-global.navigator = global.window.navigator;
 
 testrunner.run(['tests'], {
     "error_prefix": "\u001B[31m",
