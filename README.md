@@ -1,6 +1,8 @@
 # formsy-react-2
 
-(insert badges)
+[![npm](https://img.shields.io/npm/v/formsy-react-2.svg)](https://www.npmjs.com/package/formsy-react-2)
+[![npm](https://img.shields.io/npm/dw/formsy-react-2.svg)](https://www.npmjs.com/package/formsy-react-2)
+[![license](https://img.shields.io/github/license/st-andrew/formsy-react-2.svg)](https://github.com/st-andrew/formsy-react-2)
 
 ---
 
