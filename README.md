@@ -85,7 +85,7 @@ export Formsy.HOC(MyInputHOC);
 
 // Using your new component
 
-class MyForm extends React.component {
+class MyForm extends React.Component {
   state = {
     formIsValid: false
   }
