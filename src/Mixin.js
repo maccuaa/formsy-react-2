@@ -1,6 +1,6 @@
 var React = global.React || require('react');
-var PropTypes = require('prop-types');
-var utils = require('./utils.js');
+import PropTypes from 'prop-types';
+import utils  from './utils.js';
 
 const convertValidationsToObject = (validations) => {
   if (typeof validations === 'string') {
