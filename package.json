@@ -7,11 +7,9 @@
     "url": "https://github.com/st-andrew/formsy-react-2.git"
   },
   "main": "lib/main.js",
-  "browser": "browser.js",
   "scripts": {
-    "prepublishOnly": "npm run test && npm run build && npm run browser",
+    "prepublishOnly": "npm run test && npm run build",
     "build": "babel ./src/ -d ./lib/",
-    "browser": "browserify ./src/main.js -o browser.js -t [ babelify --presets [ env react ] --plugins [ transform-class-properties ] ]",
     "test": "babel-node testrunner"
   },
   "author": "Andrew MacCuaig",
@@ -34,8 +32,6 @@
     "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-env": "1.6.1",
     "babel-preset-react": "6.24.1",
-    "babelify": "8.0.0",
-    "browserify": "14.5.0",
     "eslint": "4.0.0",
     "eslint-plugin-react": "7.0.1",
     "jsdom": "11.0.0",
